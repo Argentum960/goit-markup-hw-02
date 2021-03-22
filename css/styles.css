@@ -71,8 +71,9 @@ p {
   letter-spacing: 0.02em;
 }
 .button.secondary {
+  font-style: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.14px;
   text-decoration: none;
   color: var(--title-text-color);
 }
@@ -152,6 +153,7 @@ p {
 }
 
 .button.address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
@@ -163,6 +165,18 @@ p {
   color: var(--accent-color);
 }
 
+.button-nav {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.button-nav:focus,
+.button-nav:hover {
+  color: var(--accent-color);
+}
 /* портфолио */
 .button-section {
   font-weight: 500;
